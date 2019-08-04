@@ -17,7 +17,7 @@ make sdk_install_pkg
 make deb_pkg
 
 cd linux/installer/bin/
-sudo ./sgx_linux_x64_psw_*.bin
+sudo ./sgx_linux_x64_sdk_*.bin
 cd ../deb
 sudo dpkg -i ./libsgx-urts_*-*_amd64.deb ./libsgx-enclave-common_*-*_amd64.deb << EOF
 no
